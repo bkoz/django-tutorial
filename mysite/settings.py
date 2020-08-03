@@ -25,7 +25,7 @@ SECRET_KEY = '^*w%rtk)cc!sfyf-na%4mgcq@j$@0%hjlqj=rwpmw=m%@a9+j9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bastion.5688.example.opentlc.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
