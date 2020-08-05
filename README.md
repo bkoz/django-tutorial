@@ -1,10 +1,10 @@
 # django-tutorial
 
-## Openshift deployment
-
-Deploy from the command line.
+Requires RHEL8 and python 3.8
 
 ```
-oc new-app https://github.com/bkoz/django-tutorial --env=APP_SCRIPT=runme.sh
-oc expose svc django-tutorial
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+sh ./runme.sh
 ```
